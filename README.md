@@ -19,37 +19,35 @@ CSV-Product-Summary/
 └── README.md
 ```
 
-
 ---
 
 ## Como Usar
 
 1. Abra o projeto no IntelliJ IDEA ou outro IDE de sua preferência.  
-2. Coloque o arquivo `items.txt` no diretório que você deseja ler (exemplo: `C:\Users\Nome\IdeaProjects\FilesGitVersion\Arquivos\items.txt`).  
+2. Rode o programa (`Main.java`).  
+3. Quando solicitado, digite o caminho completo do arquivo `items.txt` que está no projeto (exemplo de caminho: `C:\Users\Nome\IdeaProjects\FilesGitVersion\Arquivos\items.txt`).  
 
-   **Observação:** o arquivo `items.txt` já vem com 3 itens de teste. Ele pode ser editado seguindo o mesmo padrão (`Nome do Produto,Preço,Quantidade`), podendo adicionar qualquer tipo de item, quantidade ou valor. O programa fará o cálculo automaticamente para todos os itens.
+   **Observação:** O arquivo `items.txt` já existe no projeto com 3 itens de teste. Ele pode ser editado seguindo o mesmo padrão (`Nome do Produto,Preço,Quantidade`), podendo adicionar qualquer tipo de item, quantidade ou valor. O programa fará o cálculo automaticamente para todos os itens.
 
-3. Rode o programa (`Main.java`).  
-4. Digite o caminho completo do arquivo `items.txt` quando solicitado.  
-5. O programa irá:
+4. O programa irá:
 
    - Mostrar o conteúdo original no console.  
-   - Criar automaticamente uma pasta `out` dentro do diretório do `items.txt`.  
+   - Criar automaticamente uma pasta `out` dentro do diretório onde o `items.txt` está localizado.  
    - Gerar o arquivo `summary.csv` com cada produto e seu total (preço × quantidade).
 
 ---
 
 ## Exemplo de Input (items.txt)
-
+````
 TV LED,1290.99,1
 Notebook,3500.00,2
 Mouse,50.00,5
+````
 
-shell
-Copiar código
 
 ### Console Output
 
+```shell
 === ORIGINAL FILE CONTENT ===
 TV LED,1290.99,1
 Notebook,3500.00,2
@@ -59,19 +57,13 @@ Mouse,50.00,5
 TV LED,1290.99
 Notebook,7000.00
 Mouse,250.00
-
-shell
-Copiar código
-
+```
 ### summary.csv
-
+````
 TV LED,1290.99
 Notebook,7000.00
 Mouse,250.00
-
-yaml
-Copiar código
-
+````
 ---
 
 ## Requisitos
