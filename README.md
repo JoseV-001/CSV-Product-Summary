@@ -48,7 +48,7 @@ Samsung Galaxy 9,850.00,2
 
 ### Console Output
 
-```shell
+```text
 === ORIGINAL FILE CONTENT ===
 | TV LED,1290.99,1 |
 | Vídeo Game Chair,350.50,3 |
