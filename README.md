@@ -27,7 +27,7 @@ CSV-Product-Summary/
 2. Rode o programa (`Main.java`).  
 3. Quando solicitado, digite o caminho completo do arquivo `items.txt` que está no projeto (exemplo de caminho: `C:\Users\Nome\IdeaProjects\FilesGitVersion\Arquivos\items.txt`).  
 
-   **Observação:** O arquivo `items.txt` já existe no projeto com 3 itens de teste. Ele pode ser editado seguindo o mesmo padrão (`Nome do Produto,Preço,Quantidade`), podendo adicionar qualquer tipo de item, quantidade ou valor. O programa fará o cálculo automaticamente para todos os itens.
+   **Observação:** O arquivo `items.txt` já existe no projeto com 4 itens de teste. Ele pode ser editado seguindo o mesmo padrão (`Nome do Produto,Preço,Quantidade`), podendo adicionar qualquer tipo de item, quantidade ou valor. O programa fará o cálculo automaticamente para todos os itens.
 
 4. O programa irá:
 
@@ -40,8 +40,9 @@ CSV-Product-Summary/
 ## Exemplo de Input (items.txt)
 ````
 TV LED,1290.99,1
-Notebook,3500.00,2
-Mouse,50.00,5
+Vídeo Game Chair,350.50,3
+Iphone X,900.00,2
+Samsung Galaxy 9,850.00,2
 ````
 
 
@@ -50,19 +51,22 @@ Mouse,50.00,5
 ```shell
 === ORIGINAL FILE CONTENT ===
 TV LED,1290.99,1
-Notebook,3500.00,2
-Mouse,50.00,5
+Vídeo Game Chair,350.50,3
+Iphone X,900.00,2
+Samsung Galaxy 9,850.00,2
 
 === SUMMARY CONTENT ===
-TV LED,1290.99
-Notebook,7000.00
-Mouse,250.00
+TV LED	$1290.99
+Vídeo Game Chair	$1051.50
+Iphone X	$1800.00
+Samsung Galaxy 9	$1700.00
 ```
 ### summary.csv
 ````
-TV LED,1290.99
-Notebook,7000.00
-Mouse,250.00
+TV LED	$1290.99
+Vídeo Game Chair	$1051.50
+Iphone X	$1800.00
+Samsung Galaxy 9	$1700.00
 ````
 ---
 
