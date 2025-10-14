@@ -8,28 +8,27 @@ O programa é útil para gerar rapidamente um resumo de vendas, estoque ou qualq
 ---
 
 ## Estrutura do Projeto
-
+```
 CSV-Product-Summary/
 ├── src/
-│ ├── application/
-│ │ └── Main.java
-│ └── model/entities/
-│ └── Product.java
+│   ├── application/
+│   │   └── Main.java
+│   └── model/entities/
+│       └── Product.java
 ├── .gitignore
 └── README.md
+```
 
-markdown
-Copiar código
-
-- `Main.java`: programa principal que lê `items.txt` e cria `summary.csv`.  
-- `Product.java`: classe que representa um produto, contendo nome, preço e quantidade, com método para calcular total.
 
 ---
 
 ## Como Usar
 
 1. Abra o projeto no IntelliJ IDEA ou outro IDE de sua preferência.  
-2. Coloque o arquivo `items.txt` no diretório que você deseja ler (exemplo: `C:\Users\JoseV\IdeaProjects\FilesGitVersion\Arquivos\items.txt`).  
+2. Coloque o arquivo `items.txt` no diretório que você deseja ler (exemplo: `C:\Users\Nome\IdeaProjects\FilesGitVersion\Arquivos\items.txt`).  
+
+   **Observação:** o arquivo `items.txt` já vem com 3 itens de teste. Ele pode ser editado seguindo o mesmo padrão (`Nome do Produto,Preço,Quantidade`), podendo adicionar qualquer tipo de item, quantidade ou valor. O programa fará o cálculo automaticamente para todos os itens.
+
 3. Rode o programa (`Main.java`).  
 4. Digite o caminho completo do arquivo `items.txt` quando solicitado.  
 5. O programa irá:
@@ -85,6 +84,7 @@ Copiar código
 ## Observações
 
 - Linhas inválidas no `items.txt` serão ignoradas.  
+- O arquivo `items.txt` pode ser editado para adicionar/remover produtos ou alterar valores e quantidades, seguindo o mesmo padrão.  
 - Não é necessário criar a pasta `out` manualmente; ela será criada automaticamente.  
 
 ---
