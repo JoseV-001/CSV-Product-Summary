@@ -50,23 +50,23 @@ Samsung Galaxy 9,850.00,2
 
 ```shell
 === ORIGINAL FILE CONTENT ===
-TV LED,1290.99,1
-Vídeo Game Chair,350.50,3
-Iphone X,900.00,2
-Samsung Galaxy 9,850.00,2
+| TV LED,1290.99,1 |
+| Vídeo Game Chair,350.50,3 |
+| Iphone X,900.00,2 |
+| Samsung Galaxy 9,850.00,2 |
 
 === SUMMARY CONTENT ===
-TV LED	$1290.99
-Vídeo Game Chair	$1051.50
-Iphone X	$1800.00
-Samsung Galaxy 9	$1700.00
+| TV LED, 1290,99 | 
+| Vídeo Game Chair, 1051,50 | 
+| Iphone X, 1800,00 | 
+| Samsung Galaxy 9, 1700,00 | 
 ```
 ### summary.csv
 ````
-TV LED	$1290.99
-Vídeo Game Chair	$1051.50
-Iphone X	$1800.00
-Samsung Galaxy 9	$1700.00
+| TV LED, 1290,99 | 
+| Vídeo Game Chair, 1051,50 | 
+| Iphone X, 1800,00 | 
+| Samsung Galaxy 9, 1700,00 | 
 ````
 ---
 
