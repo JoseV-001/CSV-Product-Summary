@@ -1,7 +1,7 @@
 # CSV Product Summary
 
 ## Descrição
-Este projeto em Java lê um arquivo `items.txt` contendo produtos, preços e quantidades, calcula o total de cada produto (preço × quantidade) e gera um arquivo `summary.csv` com o resultado. Também exibe no console o conteúdo original e o resumo.
+Este projeto em Java lê um arquivo `itens.txt` contendo produtos, preços e quantidades, calcula o total de cada produto (preço × quantidade) e gera um arquivo `summary.csv` com o resultado. Também exibe no console o conteúdo original e o resumo.
 
 O programa é útil para gerar rapidamente um resumo de vendas, estoque ou qualquer lista de produtos.
 
@@ -23,26 +23,26 @@ CSV-Product-Summary/
 
 ## Como Usar
 
-1. Abra o projeto no IntelliJ IDEA ou outro IDE de sua preferência.  
-2. Rode o programa (`Main.java`).  
-3. Quando solicitado, digite o caminho completo do arquivo `items.txt` que está no projeto (exemplo de caminho: `C:\Users\Nome\IdeaProjects\FilesGitVersion\Arquivos\items.txt`).  
+1. Abra o projeto no IntelliJ IDEA ou outro IDE de sua preferência.
+2. Rode o programa (`Main.java`).
+3. Quando solicitado, digite o caminho completo do arquivo **`itens.txt`** que está no projeto (exemplo de caminho: `C:\caminho\para\seu\projeto\arquivos\itens.txt`).
 
-   **Observação:** O arquivo `items.txt` já existe no projeto com 4 itens de teste. Ele pode ser editado seguindo o mesmo padrão (`Nome do Produto,Preço,Quantidade`), podendo adicionar qualquer tipo de item, quantidade ou valor. O programa fará o cálculo automaticamente para todos os itens.
+   **Observação:** O arquivo **`itens.txt`** já existe no projeto com 5 itens de teste. Ele pode ser editado seguindo o mesmo padrão (`| Produto,Preço,Quantidade |`), podendo adicionar qualquer tipo de item, quantidade ou valor. O programa fará o cálculo automaticamente para todos os itens.
 
 4. O programa irá:
-
-   - Mostrar o conteúdo original no console.  
-   - Criar automaticamente uma pasta `out` dentro do diretório onde o `items.txt` está localizado.  
+   - Mostrar o conteúdo original no console.
+   - Criar automaticamente uma pasta **`summary folder`** dentro do diretório onde o `itens.txt` está localizado.
    - Gerar o arquivo `summary.csv` com cada produto e seu total (preço × quantidade).
 
 ---
 
-## Exemplo de Input (items.txt)
+## Exemplo de Input (itens.txt)
 ````
-TV LED,1290.99,1
-Vídeo Game Chair,350.50,3
-Iphone X,900.00,2
-Samsung Galaxy 9,850.00,2
+| Monitor Gamer,2141,94,5 |
+| SSD 1TB,819,62,13 |
+| Smartwatch,1930,64,6 |
+| Tablet Pro,4245,10,10 |
+| Pendrive 128GB,1359,38,1 |
 ````
 
 
@@ -50,23 +50,26 @@ Samsung Galaxy 9,850.00,2
 
 ```text
 === ORIGINAL FILE CONTENT ===
-| TV LED,1290.99,1 |
-| Vídeo Game Chair,350.50,3 |
-| Iphone X,900.00,2 |
-| Samsung Galaxy 9,850.00,2 |
+| Monitor Gamer,2141,94,5 |
+| SSD 1TB,819,62,13 |
+| Smartwatch,1930,64,6 |
+| Tablet Pro,4245,10,10 |
+| Pendrive 128GB,1359,38,1 |
 
 === SUMMARY CONTENT ===
-| TV LED, 1290,99 | 
-| Vídeo Game Chair, 1051,50 | 
-| Iphone X, 1800,00 | 
-| Samsung Galaxy 9, 1700,00 | 
+| Monitor Gamer, 201254.00 |
+| SSD 1TB, 50778.00 |
+| Smartwatch, 123520.00 |
+| Tablet Pro, 42450.00 |
+| Pendrive 128GB, 51642.00 |
 ```
 ### summary.csv
 ````
-| TV LED, 1290,99 | 
-| Vídeo Game Chair, 1051,50 | 
-| Iphone X, 1800,00 | 
-| Samsung Galaxy 9, 1700,00 | 
+| Monitor Gamer, 201254.00 |
+| SSD 1TB, 50778.00 |
+| Smartwatch, 123520.00 |
+| Tablet Pro, 42450.00 |
+| Pendrive 128GB, 51642.00 |
 ````
 ---
 
