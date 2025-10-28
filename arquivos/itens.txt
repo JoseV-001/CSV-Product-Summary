@@ -1,20 +1,5 @@
-| Notebook Ultrafino,4038,81,12 |
 | Monitor Gamer,2141,94,5 |
 | SSD 1TB,819,62,13 |
-| Webcam HD,1716,14,2 |
 | Smartwatch,1930,64,6 |
 | Tablet Pro,4245,10,10 |
 | Pendrive 128GB,1359,38,1 |
-| Teclado Mecânico,3662,17,9 |
-| Impressora Laser,667,89,15 |
-| Monitor Gamer,1923,75,9 |
-| Webcam HD,1501,23,11 |
-| Cadeira Office,3111,67,14 |
-| Monitor Gamer,1840,09,4 |
-| Fone Bluetooth,3537,63,1 |
-| Notebook Ultrafino,3323,25,13 |
-| Cadeira Office,1482,47,2 |
-| Webcam HD,4283,82,14 |
-| Luminária LED,549,96,5 |
-| HD Externo 2TB,2294,38,14 |
-| Monitor Gamer,1855,92,6 |
